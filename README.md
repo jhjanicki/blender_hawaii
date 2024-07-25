@@ -3,9 +3,9 @@
 
 ## Steps
 
-# 1. Add GIS plugin
+### 1. Add GIS plugin
   
-# 2. Import DEM
+### 2. Import DEM
 
 2-1 Mode
 - Mode: DEM as displacement texture
@@ -24,7 +24,7 @@
 - then add another subdivier → 6 and 5
 - drag it above the DEM0.01 and below the DEM
 
-# 3. Import raster (satellite image)
+### 3. Import raster (satellite image)
 
 3-1 Mode
 - Mode: Basemap on mesh 
@@ -34,9 +34,9 @@
 3-2 Increase height
 - Then click on the map, then S, the Z, then drag to increase the height
 
-# 4. Import shapefile (burned areas)
+### 4. Import shapefile (burned areas)
 
-# 5. Import shapefiles points
+### 5. Import shapefiles points
 - As objects
 - Elevation object: Maui DEM 
 - Separate objects
