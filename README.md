@@ -7,31 +7,31 @@
   
 2. Import DEM
 
-2-1 Mode
+- 2-1 Mode
 - Mode: DEM as displacement texture
 - (if not DEM then basemap on new plane)
 - Projection: CRS WGS84
 
-2-2 Tool icon
+- 2-2 Tool icon
 - Set strength to 1   
 
-2-3 View
+- 2-3 View
 - Clip-start: 0.01
 - End: 1000
 
-2-4 Make grid finer
+- 2-4 Make grid finer
 - Add modifier: subdivision surface: simple: change it to 6 and 6
 - then add another subdivier → 6 and 5
 - drag it above the DEM0.01 and below the DEM
 
-3.Import raster (satellite image)
+3. Import raster (satellite image)
 
-3-1 Mode
+- 3-1 Mode
 - Mode: Basemap on mesh 
 - node is automatically added in Shader editor
 - Then can change image in Shader editor if you want
 
-3-2 Increase height
+- 3-2 Increase height
 - Then click on the map, then S, the Z, then drag to increase the height
 
 4. Import shapefile (burned areas)
