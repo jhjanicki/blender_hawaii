@@ -8,21 +8,31 @@
 ### 2. Import DEM
 
 2-1 Mode
-- Mode: DEM as displacement texture
-- (if not DEM then basemap on new plane)
+- GIS → Import → Georeferenced raster → Click on "Maui.tif"
+- Mode: DEM as displacement texture (if not DEM then basemap on new plane)
 - Projection: CRS WGS84
 
-2-2 Tool icon
-- Set strength to 1   
+2-2 UV Map
+- Click on the tool icon on the right bottom corner
+- There is currently "DEM" and "DEM.001"
+- For "DEM.001" set strength to 1   
 
 2-3 View
+- Click "N" to open view
 - Clip-start: 0.01
 - End: 1000
 
-2-4 Make grid finer
-- Add modifier: subdivision surface: simple: change it to 6 and 6
-- then add another subdivier → 6 and 5
-- drag it above the DEM0.01 and below the DEM
+2-4 Set the view / zoom
+- Click on "Maui" on the sidebar
+- Click on the tilde sign to bring up the view menu
+- Click on "View selected"
+
+2-5 Make grid finer
+- Go back to the tool icon
+- "DEM" set levels-viewport to 6 and render to 6
+- Click on Add modifier → Generate → Subdivision surface
+- For the new subdivider → set levels-viewport to 6 and render to 5
+- Drag the subdivider above the "DEM.001" and below the "DEM"
 
 ### 3. Import raster (satellite image)
 
